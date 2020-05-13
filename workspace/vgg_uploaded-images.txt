@@ -1,0 +1,29 @@
+
+Prints 10 filenames from folder pet_images/
+ 1 file: German_shepherd_dog_04890.jpg
+ 2 file:                cat_07.jpg
+ 3 file:       Dalmatian_04068.jpg
+ 4 file:   great_horned_owl_02.jpg
+ 5 file:       Dalmatian_04037.jpg
+ 6 file:  Boston_terrier_02285.jpg
+ 7 file: Golden_retriever_05257.jpg
+ 8 file:  Boston_terrier_02259.jpg
+ 9 file:          Poodle_07956.jpg
+10 file:                cat_02.jpg
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = vgg 
+ dogfile = dognames.txt
+
+Empty Dictionary results_dic - n items= 0
+
+Printing all key-value pairs in dictionary results_dic:
+Filename= beagle_0239.jpg    Pet Label= beagle
+Filename= Boston_terrier_02259.jpg    Pet Label= boston terrier
+
+Pet Image Label Dictionary has 2 key-value pairs.
+Below are 2 of them:
+ 1 key:                beagle_0239.jpg  label:                     beagle
+ 2 key:       Boston_terrier_02259.jpg  label:             boston terrier
+* Doesn't Check the Results Dictionary because 'classify_images' hasn't been defined.
+* Doesn't Check the Results Dictionary because 'adjust_results4_isadog' hasn't been defined.
